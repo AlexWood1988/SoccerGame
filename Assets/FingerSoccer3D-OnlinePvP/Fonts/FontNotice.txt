@@ -1,0 +1,2 @@
+OSWALD-REGULAR font by Vernon Adams (https://github.com/googlefonts/OswaldFont)
+Oswald is designed to be used freely across the internet by web browsers on desktop computers, laptops and mobile devices. 

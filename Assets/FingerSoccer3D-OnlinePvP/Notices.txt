@@ -1,0 +1,10 @@
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+A. OSWALD-REGULAR font by Vernon Adams (https://github.com/googlefonts/OswaldFont)
+Oswald is designed to be used freely across the internet by web browsers on desktop computers, laptops and mobile devices. 
+
+B. PUN 2 - FREE
+Photon Unity Networking 2 is a free networking plugin by Exit Games (https://assetstore.unity.com/publishers/298)
+No-cost package with various demos, pre-made scripts and reference documentation. Exports to basically all platforms.
+https://www.photonengine.com/en/PUN
+https://assetstore.unity.com/packages/tools/network/pun-2-free-119922

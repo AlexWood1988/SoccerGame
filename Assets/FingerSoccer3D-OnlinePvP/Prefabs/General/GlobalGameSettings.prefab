@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5984204639540287877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5984204639540287875}
+  - component: {fileID: 5984204639540287874}
+  m_Layer: 0
+  m_Name: GlobalGameSettings
+  m_TagString: GlobalGameSettings
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5984204639540287875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984204639540287877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5984204639540287874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5984204639540287877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c3b887b00e8334fb666eb2ed2851f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableTeams:
+  - teamIcon: {fileID: 2800000, guid: 794fba7aa2e360f42afe0bb88a161aa8, type: 3}
+    teamSprite: {fileID: 21300000, guid: 794fba7aa2e360f42afe0bb88a161aa8, type: 3}
+    teamMaterial: {fileID: 2100000, guid: e08f17cd5d2fe934aa82220b6ad35f26, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 7, y: 5, z: 3, w: 1}
+  - teamIcon: {fileID: 2800000, guid: d43434838f90dbc459d7b6f83c364275, type: 3}
+    teamSprite: {fileID: 21300000, guid: d43434838f90dbc459d7b6f83c364275, type: 3}
+    teamMaterial: {fileID: 2100000, guid: a2109025ce8c6aa49aa3e53192a8644f, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 6, z: 5, w: 0}
+  - teamIcon: {fileID: 2800000, guid: b4501549485e18b4fbb79b5b66b2ebda, type: 3}
+    teamSprite: {fileID: 21300000, guid: b4501549485e18b4fbb79b5b66b2ebda, type: 3}
+    teamMaterial: {fileID: 2100000, guid: febb3f5d7b7ca9841a257dcd89f7b0f3, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 8, z: 2, w: 1}
+  - teamIcon: {fileID: 2800000, guid: e99b8210bddc4cc4eae6d74d3a0842d7, type: 3}
+    teamSprite: {fileID: 21300000, guid: e99b8210bddc4cc4eae6d74d3a0842d7, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 4ca0ea73a9e39ad479d3dc3ca092e527, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 6, z: 6, w: 0}
+  - teamIcon: {fileID: 2800000, guid: da948848ee655a443bdb74579b9c38cd, type: 3}
+    teamSprite: {fileID: 21300000, guid: da948848ee655a443bdb74579b9c38cd, type: 3}
+    teamMaterial: {fileID: 2100000, guid: c302520f3b5fb40488bda2de32207beb, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 9, y: 3, z: 2, w: 0}
+  - teamIcon: {fileID: 2800000, guid: a947cc6939b91ff408bf29b144520608, type: 3}
+    teamSprite: {fileID: 21300000, guid: a947cc6939b91ff408bf29b144520608, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 5583581ece86ca0459fe77aa388fb412, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 10, z: 3, w: 1}
+  - teamIcon: {fileID: 2800000, guid: ea2855326b01aa04baf7d8854c22cf27, type: 3}
+    teamSprite: {fileID: 21300000, guid: ea2855326b01aa04baf7d8854c22cf27, type: 3}
+    teamMaterial: {fileID: 2100000, guid: c1a3bcbb1f2732647a462891bd22cbc4, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 7, z: 4, w: 1}
+  - teamIcon: {fileID: 2800000, guid: c2c2765f899dd2e47abe7213fbed8136, type: 3}
+    teamSprite: {fileID: 21300000, guid: c2c2765f899dd2e47abe7213fbed8136, type: 3}
+    teamMaterial: {fileID: 2100000, guid: e69c229094449394b8dd58ae716aa5b7, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 9, z: 5, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 791d0e0ea2f44da489036e88aecc7718, type: 3}
+    teamSprite: {fileID: 21300000, guid: 791d0e0ea2f44da489036e88aecc7718, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 99c68d8f10e55cd4585de3361ed31b65, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 8, y: 3, z: 7, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 9bc74c326af36ed40b2a6881b86e43a7, type: 3}
+    teamSprite: {fileID: 21300000, guid: 9bc74c326af36ed40b2a6881b86e43a7, type: 3}
+    teamMaterial: {fileID: 2100000, guid: fd47ee17f8ba2f94b97763ef7affaad2, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 6, z: 2, w: 0}
+  - teamIcon: {fileID: 2800000, guid: fdf2efc3e9b9415459d967f29ab3006f, type: 3}
+    teamSprite: {fileID: 21300000, guid: fdf2efc3e9b9415459d967f29ab3006f, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 8ef558e8d31405a4d950f85545d10101, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 9, z: 5, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 9d6ef79b32f55854e92b9f2af3b4650b, type: 3}
+    teamSprite: {fileID: 21300000, guid: 9d6ef79b32f55854e92b9f2af3b4650b, type: 3}
+    teamMaterial: {fileID: 2100000, guid: bad6a8412b7e4164fb84a1dfb3a11ab5, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 6, z: 2, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 525778029250fb7478378d9b053cd0dc, type: 3}
+    teamSprite: {fileID: 21300000, guid: 525778029250fb7478378d9b053cd0dc, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 297f5f68a9be73f498548b4459956ebd, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 8, z: 4, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 0fc42d2c507f15844bbfc3d3ecf376c9, type: 3}
+    teamSprite: {fileID: 21300000, guid: 0fc42d2c507f15844bbfc3d3ecf376c9, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 32746e0dececf5542932e6f9b003be13, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 7, y: 6, z: 8, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 35bd27241aaa33947b9e54e845b2de7b, type: 3}
+    teamSprite: {fileID: 21300000, guid: 35bd27241aaa33947b9e54e845b2de7b, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 25d3432505a05194f94307fb5e895136, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 9, y: 3, z: 2, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 42cdde084064cfd4d9df13a281218ce7, type: 3}
+    teamSprite: {fileID: 21300000, guid: 42cdde084064cfd4d9df13a281218ce7, type: 3}
+    teamMaterial: {fileID: 2100000, guid: c73b3f6f2ebd2124a8549357f3ec961a, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 10, z: 3, w: 1}
+  - teamIcon: {fileID: 2800000, guid: e919d2e914020ad49a7cec74bf57f6b3, type: 3}
+    teamSprite: {fileID: 21300000, guid: e919d2e914020ad49a7cec74bf57f6b3, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 85c440667c191144181818c501a2f32f, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 7, z: 4, w: 0}
+  - teamIcon: {fileID: 2800000, guid: e55e63b369f9ade41bbddd2fbfa1c571, type: 3}
+    teamSprite: {fileID: 21300000, guid: e55e63b369f9ade41bbddd2fbfa1c571, type: 3}
+    teamMaterial: {fileID: 2100000, guid: ba1f76ac1e3251544861aee6d422eb9e, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 9, z: 5, w: 1}
+  - teamIcon: {fileID: 2800000, guid: d3fe4a04a5b3ad948b4500cc6fa93e2e, type: 3}
+    teamSprite: {fileID: 21300000, guid: d3fe4a04a5b3ad948b4500cc6fa93e2e, type: 3}
+    teamMaterial: {fileID: 2100000, guid: ad5a1e51924e51f47986020354268c44, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 8, y: 3, z: 7, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 51f0d1fd3cee23d4985e05853cd57518, type: 3}
+    teamSprite: {fileID: 21300000, guid: 51f0d1fd3cee23d4985e05853cd57518, type: 3}
+    teamMaterial: {fileID: 2100000, guid: d3c39362f8f31e74b9f774a94bd86c47, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 6, z: 2, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 497427d4ce158ab47b459f15de1d6a92, type: 3}
+    teamSprite: {fileID: 21300000, guid: 497427d4ce158ab47b459f15de1d6a92, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 33dd0a5f2f7b7d64fb821aa46c281ab6, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 9, z: 5, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 185f4b9dd3a572345b585fced4a7c054, type: 3}
+    teamSprite: {fileID: 21300000, guid: 185f4b9dd3a572345b585fced4a7c054, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 741a8d05fa0e958459091f8b3f2397a3, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 6, z: 2, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 1350ddd6ab8f97a4ba32988dd3ce9a16, type: 3}
+    teamSprite: {fileID: 21300000, guid: 1350ddd6ab8f97a4ba32988dd3ce9a16, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 4bb889397af34814b81c1ea84d98125a, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 8, z: 4, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 995bf9c1627893942a09e9ffdff41e2f, type: 3}
+    teamSprite: {fileID: 21300000, guid: 995bf9c1627893942a09e9ffdff41e2f, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 2ba38d0b0af948348aa96ccaa7fc64cd, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 7, y: 6, z: 8, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 98345aad739c42949a2622e4fa62ff57, type: 3}
+    teamSprite: {fileID: 21300000, guid: 98345aad739c42949a2622e4fa62ff57, type: 3}
+    teamMaterial: {fileID: 2100000, guid: f4da9d6235fe2994eac2091d0fa77c6a, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 9, y: 3, z: 2, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 8339d2685bc7e6a40b1ae18658be3ef7, type: 3}
+    teamSprite: {fileID: 21300000, guid: 8339d2685bc7e6a40b1ae18658be3ef7, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 2df39957b43df0a4d9a4da62f01b66c1, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 10, z: 3, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 3c134699232b9f440ad037bb0609a12a, type: 3}
+    teamSprite: {fileID: 21300000, guid: 3c134699232b9f440ad037bb0609a12a, type: 3}
+    teamMaterial: {fileID: 2100000, guid: d758c16e26afa7e4985eed34b19017ad, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 7, z: 4, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 9dc32c779e59e6243aad8cf0bc8eab45, type: 3}
+    teamSprite: {fileID: 21300000, guid: 9dc32c779e59e6243aad8cf0bc8eab45, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 50565e398088c2c48bae7258ea0274f2, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 9, z: 5, w: 0}
+  - teamIcon: {fileID: 2800000, guid: 2083ca45bfb462d4ab8bbbb4345a9130, type: 3}
+    teamSprite: {fileID: 21300000, guid: 2083ca45bfb462d4ab8bbbb4345a9130, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 5ab2e86d518601c42800e0ab66dcf53a, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 8, y: 3, z: 7, w: 1}
+  - teamIcon: {fileID: 2800000, guid: f111f5034bff1a84fb703695a03dabc6, type: 3}
+    teamSprite: {fileID: 21300000, guid: f111f5034bff1a84fb703695a03dabc6, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 83a43045ed8c7b644a8e9abec7116482, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 5, y: 6, z: 2, w: 0}
+  - teamIcon: {fileID: 2800000, guid: a441ecbbe627aa14da430cde67c10b08, type: 3}
+    teamSprite: {fileID: 21300000, guid: a441ecbbe627aa14da430cde67c10b08, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 6a3304523c6f7d644aa7eaf075da819b, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 3, y: 9, z: 5, w: 1}
+  - teamIcon: {fileID: 2800000, guid: 3d5abce49f9da034886d5bb48ce5e8a6, type: 3}
+    teamSprite: {fileID: 21300000, guid: 3d5abce49f9da034886d5bb48ce5e8a6, type: 3}
+    teamMaterial: {fileID: 2100000, guid: 2f3d5eb615a17654da9a0357f8d9d319, type: 2}
+    teamPrice: 100
+    teamAttributes: {x: 4, y: 3, z: 5, w: 0}
+  availableFormations:
+  - formationName: 1-2-2
+    formationImage: {fileID: 2800000, guid: 4f6d18422e39cd04dae557f0ab4fb95e, type: 3}
+    formationPrice: 100
+    isUnlocked: 1
+  - formationName: 1-3-1
+    formationImage: {fileID: 2800000, guid: cf97a8c1b9143074e97f51b4ea3372da, type: 3}
+    formationPrice: 150
+    isUnlocked: 0
+  - formationName: 1-2-1-1
+    formationImage: {fileID: 2800000, guid: 24d9810c3dc27c04fa03b2ae26f51011, type: 3}
+    formationPrice: 175
+    isUnlocked: 0
+  - formationName: 1-4-0
+    formationImage: {fileID: 2800000, guid: 3d66f6ae11c4455438b6547c24dc488d, type: 3}
+    formationPrice: 200
+    isUnlocked: 0
+  - formationName: 1-1-1-1-1
+    formationImage: {fileID: 2800000, guid: 6275c18334c2b3246b7b252a319f9236, type: 3}
+    formationPrice: 300
+    isUnlocked: 0
+  availableTimes:
+  - timeName: 1 Min
+    timeValue: 60
+  - timeName: 3 Min
+    timeValue: 180
+  - timeName: 5 Min
+    timeValue: 300
+  availableFields:
+  - fieldIcon: {fileID: 2800000, guid: 130aff0ec3dece84db7fea5754ace8ae, type: 3}
+    fieldSprite: {fileID: 21300000, guid: 130aff0ec3dece84db7fea5754ace8ae, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: 5747d1d89d832c943a2b41843cf4b8da, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: 156f9496427b211409d0ab9875216fce, type: 2}
+    field3dImage: {fileID: 2800000, guid: 5e5ed38ac6511ce42b1a036e0f03c052, type: 3}
+  - fieldIcon: {fileID: 2800000, guid: b46a9446247a41f408e041f5075b39e2, type: 3}
+    fieldSprite: {fileID: 21300000, guid: b46a9446247a41f408e041f5075b39e2, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: 658d22d3ca808e04b8168e3ab1351e31, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: c88b30027c4cf994bb9b671f5dd70a69, type: 2}
+    field3dImage: {fileID: 2800000, guid: 447a7cc9fb3a148438f73d0b94dcd5fb, type: 3}
+  - fieldIcon: {fileID: 2800000, guid: bfd3cdaa28ffcbd4ab56e26e7db6181b, type: 3}
+    fieldSprite: {fileID: 21300000, guid: bfd3cdaa28ffcbd4ab56e26e7db6181b, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: d7146035e3249054d94c7e36b92faff6, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: 4f261324d31e4ae4285ec7e945592883, type: 2}
+    field3dImage: {fileID: 2800000, guid: c204630fc6434574b897983aec773ed2, type: 3}
+  - fieldIcon: {fileID: 2800000, guid: a735c941277b77d4c8b21222ad863b56, type: 3}
+    fieldSprite: {fileID: 21300000, guid: a735c941277b77d4c8b21222ad863b56, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: 2330bb6ab7f6eba42aeaf49e59687dbc, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: cbe32aff97a4b344ba95a2f25e18f376, type: 2}
+    field3dImage: {fileID: 2800000, guid: dedb52f06ca6f074fafd7075b16ab515, type: 3}
+  - fieldIcon: {fileID: 2800000, guid: 0665b7b77f1b04c47868ddfdbbe41cda, type: 3}
+    fieldSprite: {fileID: 21300000, guid: 0665b7b77f1b04c47868ddfdbbe41cda, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: 80da8ec6e8c27ad40a8d6fa8549857b2, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: 8de28645db0131b49918275509076cca, type: 2}
+    field3dImage: {fileID: 2800000, guid: 6b3ff9de39bbf84418a34027994b556a, type: 3}
+  - fieldIcon: {fileID: 2800000, guid: 394963fc1831dd04d86b4f5d7251355d, type: 3}
+    fieldSprite: {fileID: 21300000, guid: 394963fc1831dd04d86b4f5d7251355d, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: 2cf248f01d75b8040a6d06b4afe31d40, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: 9cdec25a48b03054382f4faf6fb64798, type: 2}
+    field3dImage: {fileID: 2800000, guid: 459fb4bc03fa9a249b8d01066c09a23b, type: 3}
+  - fieldIcon: {fileID: 2800000, guid: ae43be803947dfb41b1b26f4beab166a, type: 3}
+    fieldSprite: {fileID: 21300000, guid: ae43be803947dfb41b1b26f4beab166a, type: 3}
+    fieldRealImage: {fileID: 2800000, guid: e9d1c1ee6a8ca76458eda60f63d2348a, type: 3}
+    fieldMaterial: {fileID: 2100000, guid: c6a570038d583ee4eb511bf3bf15aa9d, type: 2}
+    field3dImage: {fileID: 2800000, guid: beedd9cc73a3ab14f874f915a8f82d14, type: 3}
+  onlineModeTimer: 90
+  useFakeOpponent: 0
+  fakeOpponentSearchTime: 20
